@@ -1,0 +1,53 @@
+.container{
+    margin: 10%;
+    width: 50% !important;
+}
+.card{
+    height: 100vh;
+    background: white;
+    border-radius: 0px !important;
+    padding: 3%;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.input{
+    margin: 10px;
+}
+label{
+    color: black;
+    margin-bottom: 10px;
+}
+.col h1{
+    color: black;
+    text-align: center;
+}
+input{
+    width: 30%;
+    border: 2px solid;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    color: black !important;
+}
+.card p a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btn{
+    display: block !important;
+    margin: auto;
+}
+.footer
+{
+    margin: 35px;
+}
+@media screen and (max-width: 992px) {
+    .container{
+        width: auto !important;
+    }
+}
